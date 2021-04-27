@@ -1,0 +1,11 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Cintia"
+}
+
+###
+
+GET  http://localhost:3000/
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQ2ludGlhIiwiaWF0IjoxNjE5NDgyODczfQ.47r_pcShyx17wzIXoks-wm9r0su0pjjUUIk7XhqYgYY
